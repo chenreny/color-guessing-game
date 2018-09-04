@@ -1,0 +1,90 @@
+.square{
+	background:green;
+	width: 30%;
+	padding-bottom: 30%;
+	float:left;
+	margin:1.66%;
+	border-radius: 15%;
+	transition:background 0.6s;
+	-webkit-transition:background 0.6s;
+    -moz-transition:background 0.6s;
+}
+
+/*body{
+	background-color: #232323;
+}*/
+
+#sp{
+	background-color: #232323;
+	margin:0;
+	font-family:"Avenir";
+	font-weight:normal;
+	text-transform:uppercase;
+	background-image: url("hugues-de-buyer-mimeure-335733-unsplash.jpg");
+	background-size:cover;
+     height:100%;
+
+
+	/*height:50%;*/
+}
+
+#container{
+   max-width:600px;
+   margin:10px auto;
+}
+
+h1{
+	padding:20px 0;
+	line-height:1.1;
+	text-align:center;
+	margin:0;
+	color:white;
+	background-color:steelblue;
+}
+
+#stripe{
+	background-color:white;
+	height:30px;
+	text-align:center;
+	border-bottom:2px solid black;
+}
+
+.selected{
+	background-color:steelblue;
+	color:white;
+}
+
+#colorDisplay{
+	font-size:2em;
+}
+
+button{
+	border:none;
+	background:none;
+	text-transform:uppercase;
+	height:100%;
+	font-weight:700;
+	color:steelblue;
+	font-size:inherit;
+	transition:all .3s;
+	-webkit-transition:all .3s;
+    -moz-transition:all .3s;
+    outline:none;
+}
+
+#message{
+	display:inline-block;
+	width: 20%;
+}
+
+button:hover{
+	color:white;
+	background:steelblue;
+}
+
+#change{
+	margin-bottom:0;
+	padding-bottom:0;
+	height:100%;
+/*	display:inline-block;*/
+}
